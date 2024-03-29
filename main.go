@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	whatWasSaid, whatAge := say()
 	fmt.Println(whatWasSaid, whatAge)
 }
