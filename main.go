@@ -3,15 +3,10 @@ package main
 import "fmt"
 
 func main()  {
-	whatWasSaid := say()
-	whatAge := age()
+	whatWasSaid, whatAge := say()
 	fmt.Println(whatWasSaid, whatAge)
 }
 
-func say() string {
-	return "Hello, I am"
-}
-
-func age() int {
-	return 33
+func say() (string, int) {
+	return "Hello, I am", 33
 }
