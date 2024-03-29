@@ -1,2 +1,2 @@
 # breakfast
- Bed and Breakfast
+ Bed and Breakfast app
